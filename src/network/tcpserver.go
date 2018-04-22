@@ -84,7 +84,7 @@ func connectionManager() {
 			state.RemoveClient(k)
 		}
 
-		time.Sleep(2*time.Second)
+		time.Sleep(2 * time.Second)
 	}
 }
 
